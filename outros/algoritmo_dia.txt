@@ -1,0 +1,20 @@
+Inicio-dia
+acordo
+pego o celular pra ver a hora
+se for muito cedo: volto a dormir
+senão: leio as notícias do dia
+levanto
+faço exercícios
+escovo os dentes
+tomo aguá
+como alguma coisa
+fico na sala um pouco fazendo nada específico
+jogo videogame
+almoço
+jogo videogame
+janto
+espero fazer digestão
+faço exercícios
+tomo banho
+vou dormir
+fim-dia

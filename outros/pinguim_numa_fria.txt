@@ -1,0 +1,22 @@
+Inicio-jogo
+colocar pinguim filhote azul
+colocar pinguim pai azul
+mover
+tirar pinguim pai azul
+mover
+colocar pinguim filhote verde
+mover
+tirar pinguim filhote azul
+mover
+colocar pinguim pai verde
+mover
+tirar pinguim pai verde
+colocar pinguim filhote vermelho
+mover
+tirar pinguim filhote verde
+mover
+colocar pinguim pai vermelho
+mover
+tirar pinguim pai vermelho
+tirar pinguim filhote vermelho
+fim-jogo

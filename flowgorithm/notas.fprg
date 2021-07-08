@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="wilin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-29 02:51:21 "/>
+        <attribute name="created" value="d2lsaW47TEFQVE9QLVU5S1BQMUhFOzIwMjEtMDYtMjg7IjA1OjQxOjQ5ICI7MjgyMg=="/>
+        <attribute name="edited" value="d2lsaW47TEFQVE9QLVU5S1BQMUhFOzIwMjEtMDYtMjk7IjAyOjUxOjIxICI7NzsyOTI1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, total, media" type="Real" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;Digite seu nome:&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite sua nota:&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="total" expression="nota1+nota2+nota3+nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="nome &amp; &quot; sua nota total &#233; &quot; &amp; total &amp; &quot; e sua m&#233;dia &#233; &quot; &amp; media" newline="True"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;Parab&#233;ns, voc&#234; foi aprovado.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente sua nota n&#227;o atingiu o m&#237;nimo para aprova&#231;&#227;o.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

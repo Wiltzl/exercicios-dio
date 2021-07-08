@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="wilin"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-06-28 10:06:14 "/>
+        <attribute name="created" value="d2lsaW47TEFQVE9QLVU5S1BQMUhFOzIwMjEtMDYtMjg7IjA3OjA3OjA3ICI7MjgyMA=="/>
+        <attribute name="edited" value="d2lsaW47TEFQVE9QLVU5S1BQMUhFOzIwMjEtMDYtMjg7IjEwOjA2OjE0ICI7MTsyOTE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="jan, fev, mar, abr, media" type="Real" array="False" size=""/>
+            <input variable="jan"/>
+            <input variable="fev"/>
+            <input variable="mar"/>
+            <input variable="abr"/>
+            <assign variable="media" expression="(jan+fev+mar+abr)/4"/>
+            <output expression="&quot;Suas vendas somaram uma m&#233;dia de:&quot;" newline="True"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=5000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns! Voc&#234; ir&#225; receber um abono de 10%.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; ir&#225; receber apenas 3% de abono.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
